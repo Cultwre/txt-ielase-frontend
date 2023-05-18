@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Inconsolata", monospace;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+form {
+  display: flex;
+}
+
+.main-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100vh;
+  width: 40vh;
+  background-color: #495057;
+  color: #e9ecef;
+  border-right: 10px solid #868e96;
+}
+
+.txt-parent {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: #343a40;
+}
+
+.txt-child {
+  width: 90%;
+  height: 90%;
+  background-color: #212529;
+  margin: auto;
+  border-radius: 15px;
+  color: #e9ecef;
+}
+
+.table-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  background-color: #495057;
+  color: #e9ecef;
+  border: 1px solid #868e96;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.title,
+.input-txt {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.input-txt {
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+}
+
+tr,
+.table,
+th,
+td {
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #868e96;
+}
+
+th {
+  background-color: #868e96;
+  border: 1px solid #adb5bd;
+}
